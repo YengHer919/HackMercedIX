@@ -92,8 +92,8 @@ public class HomePage extends JFrame {
 		JTextArea txtrCowIsAn = new JTextArea();
 		txtrCowIsAn.setBackground(new Color(255, 255, 255));
 		txtrCowIsAn.setEditable(false);
-		txtrCowIsAn.setText("Cow is an innovative program designed to assist farmers and veterinarians in \n"
-				+ "monitoring and predicting the health status of cows. With Cow, users can easily \n"
+		txtrCowIsAn.setText("Moodicine is an innovative program designed to assist farmers and veterinarians in \n"
+				+ "monitoring and predicting the health status of cows. With Moodicine, users can easily \n"
 				+ "input detailed information about individual cows, such as age, weight, feeding \n"
 				+ "habits, and physical symptoms. Once the data is entered, users can initiate the \n"
 				+ "analysis process by pressing the \"Analyze\" button. Behind the scenes, \n"
@@ -102,7 +102,7 @@ public class HomePage extends JFrame {
 				+ "health issues, detect early signs of diseases, and predict future health outcomes \n"
 				+ "for the cows. The program provides users with comprehensive reports and insights, \n"
 				+ "highlighting any detected health issues, their severity, and recommended actions for \n"
-				+ "prevention or treatment. Additionally, CowHealthPredictor offers personalized \n"
+				+ "prevention or treatment. Additionally, Moodicine offers personalized \n"
 				+ "recommendations and guidelines for maintaining optimal health and well-being for \n"
 				+ "individual cows based on their specific characteristics.");
 		txtrCowIsAn.setBounds(10, 70, 445, 212);
