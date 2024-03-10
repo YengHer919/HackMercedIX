@@ -219,7 +219,7 @@ public class ViewCows extends JFrame {
                         
                         textField_2.setText(currCow[7]);
                         
-                        textField_3.setText(currCow[15]);
+                        textField_3.setText(currCow[13]);
                         
                         textField_4.setText(currCow[2]);
                         
