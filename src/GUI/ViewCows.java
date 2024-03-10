@@ -211,12 +211,11 @@ public class ViewCows extends JFrame {
                     String selectedCow = cowList.getSelectedValue();
                     String[] currCow = read.getCow(selectedCow);
                     if (selectedCow != null) {
-                        // Assuming each cow's data is formatted as a single string
                         
                         textField.setText(currCow[5]);
                         
-                        textField_1.setText(currCow[14]); // Assuming the first element is cow's name
-                        
+                        textField_1.setText(currCow[14]); 
+			    
                         textField_2.setText(currCow[10]);
                         
                         textField_3.setText(currCow[15]);
@@ -258,7 +257,7 @@ public class ViewCows extends JFrame {
     	Reader read = new Reader();
         String[] cowNames = new String[read.getSize()];
         for (int i = 0; i < read.getSize(); i++) {
-            cowNames[i] = read.getName(i); // Assuming the first element of each cow's data is its name
+            cowNames[i] = read.getName(i); 
         }
         return cowNames;
     }
