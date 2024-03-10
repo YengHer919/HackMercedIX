@@ -215,9 +215,9 @@ public class ViewCows extends JFrame {
                         
                         textField.setText(currCow[4]);
                         
-                        textField_1.setText(currCow[14]); // Assuming the first element is cow's name
+                        textField_1.setText(currCow[12]); // Assuming the first element is cow's name
                         
-                        textField_2.setText(currCow[10]);
+                        textField_2.setText(currCow[7]);
                         
                         textField_3.setText(currCow[15]);
                         
