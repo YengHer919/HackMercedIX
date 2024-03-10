@@ -132,7 +132,6 @@ public class Analyze extends JFrame {
                     String[] currCow = Reader.getCow(selectedCow);
                     
                     if (selectedCow != null) {
-                        // Assuming each cow's data is formatted as a single string
                  		txtrCowIsAn1.setText(currCow[10]);
                     }
                 }
