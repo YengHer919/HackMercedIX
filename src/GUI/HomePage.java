@@ -79,7 +79,7 @@ public class HomePage extends JFrame {
 		txtCows.setEditable(false);
 		txtCows.setFont(new Font("Stencil", Font.BOLD, 20));
 		txtCows.setBackground(new Color(0, 255, 0));
-		txtCows.setText("Cow");
+		txtCows.setText("Moodicine");
 		contentPane.add(txtCows);
 		txtCows.setColumns(10);
 		txtCows.setBorder(javax.swing.BorderFactory.createEmptyBorder());
@@ -97,7 +97,7 @@ public class HomePage extends JFrame {
 				+ "input detailed information about individual cows, such as age, weight, feeding \n"
 				+ "habits, and physical symptoms. Once the data is entered, users can initiate the \n"
 				+ "analysis process by pressing the \"Analyze\" button. Behind the scenes, \n"
-				+ "CowHealthPredictor utilizes prediction algorithms based off of extensive datasets \n"
+				+ "Moodicine utilizes prediction algorithms based off of extensive datasets \n"
 				+ "of cow health records. These algorithms analyze the input data to identify potential \n"
 				+ "health issues, detect early signs of diseases, and predict future health outcomes \n"
 				+ "for the cows. The program provides users with comprehensive reports and insights, \n"
